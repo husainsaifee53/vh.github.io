@@ -7,6 +7,6 @@ document.getElementById('startBtn').addEventListener('click', () => {
 });
 
 function randomName() {
-    let names = ['Hawra'];
+    let names = ['name'];
     return names[Math.floor(Math.random() * names.length)];
 }
